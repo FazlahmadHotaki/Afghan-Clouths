@@ -258,7 +258,7 @@ footer{background:var(--ink);color:rgba(255,255,255,0.75);padding:64px 0 24px;}
 .drawer-foot .btn{width:100%;justify-content:center;}
 .checkout-note{font-size:12px;color:var(--text-soft);text-align:center;margin-top:10px;display:none;}
 
-/* ============ FAB add button ============ */
+/* FAB add button */
 .fab-add{
   position:fixed;bottom:28px;inset-inline-start:28px;z-index:60;
   width:56px;height:56px;border-radius:50%;
@@ -270,7 +270,7 @@ footer{background:var(--ink);color:rgba(255,255,255,0.75);padding:64px 0 24px;}
 .fab-add:hover{transform:scale(1.08) rotate(90deg);background:var(--blue-deep);}
 .fab-add svg{width:26px;height:26px;}
 
-/* ============ Add product modal ============ */
+/* add product modal (adding box) */
 .modal-overlay{
   position:fixed;inset:0;background:rgba(15,26,43,0.55);
   z-index:90;display:flex;align-items:center;justify-content:center;
